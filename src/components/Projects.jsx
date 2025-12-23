@@ -4,10 +4,23 @@ import './Projects.css';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
-  { title: "E-Commerce App", desc: "React + Node.js + MongoDB", link: "#" },
-  { title: "Portfolio Website", desc: "React + Bootstrap + CSS", link: "#" },
-  { title: "Blog Platform", desc: "MERN Stack Application", link: "#" },
+  {
+    title: "Portfolio Website",
+    desc: "Personal portfolio built with React, Bootstrap, Framer Motion, and responsive design.",
+    link: "#",
+  },
+  {
+    title: "E-Commerce UI",
+    desc: "Frontend interface for an online store with reusable components and clean UI.",
+    link: "#",
+  },
+  {
+    title: "Blog Platform",
+    desc: "Modern blog application using React and REST concepts.",
+    link: "#",
+  },
 ];
+
 
 const Projects = () => (
   <section id="projects" className="py-5 bg-light">

@@ -7,11 +7,16 @@ const About = () => (
       <h2 className="text-center mb-4" data-aos="fade-down">About Me</h2>
       <Row>
         <Col md={6} data-aos="fade-right">
-          <p>Hello! I'm Wael Mansouri, a passionate Full Stack Developer. I specialize in creating responsive and interactive web applications using React, JavaScript, and Bootstrap.</p>
-        </Col>
+<p>
+  I am a Full Stack Developer with a strong focus on frontend development using
+  React and modern JavaScript. I enjoy building clean, responsive, and
+  user-friendly web applications.
+</p>        </Col>
         <Col md={6} data-aos="fade-left">
-          <p>I enjoy turning ideas into reality through clean and efficient code. My goal is to build seamless user experiences and robust web solutions.</p>
-        </Col>
+<p>
+  I am passionate about learning new technologies, improving performance, and
+  writing maintainable code. I am currently looking for opportunities where I
+  can contribute, grow, and solve real-world problems.</p> </Col>
       </Row>
     </Container>
   </section>
